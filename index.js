@@ -17,10 +17,10 @@ image2.setAttribute("src", randomDiceImage);
 
                 // code for changing title
 if(randomNumber1>randomNumber2){
-      document.querySelector("h1").innerHTML = "🚩 Dawron  won!";
+      document.querySelector("h1").innerHTML = "🚩 PLAYER1  won!";
 }
 else if (randomNumber1<randomNumber2){
-    document.querySelector("h1").innerHTML = "Yulduz won! 🚩";
+    document.querySelector("h1").innerHTML = "PLAYER2 won! 🚩";
 }
 
 else {
